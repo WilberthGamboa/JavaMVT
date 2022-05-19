@@ -15,9 +15,9 @@ public class SOSWING {
 
     public static void main(String[] args) {
         Plantilla plantilla = new Plantilla();
-        ImageIcon img = new ImageIcon("icono.png");
+        ImageIcon img = new ImageIcon("SOSWING/src/main/java/model/soswingicono.png");
         plantilla.setTitle("Proyecto SO");
-        plantilla.setIconImage(img.getImage());
+         plantilla.setIconImage(img.getImage());
         plantilla.setVisible(true);
      
     }

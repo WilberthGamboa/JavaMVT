@@ -32,6 +32,7 @@ public class Plantilla extends javax.swing.JFrame {
             jLabellocal1.setText("10");
             jLabeltamal1.setText("54");
             jLabelestado1.setText("D");
+            jButtonpasoN.setText("Paso 0");
         }
         if(contador==1){
             
@@ -50,6 +51,7 @@ public class Plantilla extends javax.swing.JFrame {
             jLabelproceso0.setText("A");
 
              //JLABELS
+             jButtonpasoN.setText("Paso 1");
            
         }
         //21.875%%%
@@ -76,7 +78,7 @@ public class Plantilla extends javax.swing.JFrame {
          //    jLabelproceso1.setText("A");
          //    jLabelpro.setText("D");
          
-
+         jButtonpasoN.setText("Paso 2");
         }
         //28,125%
         if(contador==3){
@@ -104,6 +106,7 @@ public class Plantilla extends javax.swing.JFrame {
             jLabellocal7.setText("32");
             jLabeltama7.setText("18");
             jLabelproceso2.setText("C");
+            jButtonpasoN.setText("Paso 3");
         }
 
         //9,375%
@@ -140,11 +143,12 @@ public class Plantilla extends javax.swing.JFrame {
             jLabeltama8.setText("6");
             jLabelesta8.setText("D");
             jLabelproceso3.setText("A");
+            jButtonpasoN.setText("Paso 4");
 
         }
 
         if(contador==5){
-            C.setBackground(Color.WHITE);
+            C.setBackground(Color.RED);
            
          
           
@@ -186,7 +190,7 @@ public class Plantilla extends javax.swing.JFrame {
             jLabeltama8.setText("6");
             jLabelesta8.setText("D");
             jLabelproceso3.setText("A");
-
+            jButtonpasoN.setText("Paso 5");
         }
         //21.875%
         if(contador==6){
@@ -232,11 +236,11 @@ public class Plantilla extends javax.swing.JFrame {
             jLabeltama8.setText("14");
             jLabelesta8.setText("E");
             jLabelproceso3.setText("A");
-
+            jButtonpasoN.setText("Paso 6");
         }
 
         if(contador==7){
-            A.setBackground(Color.WHITE);
+            A.setBackground(Color.RED);
            
          
           
@@ -282,10 +286,11 @@ public class Plantilla extends javax.swing.JFrame {
             jLabeltama8.setText("14");
             jLabelesta8.setText("E");
             jLabelproceso3.setText("A");
+            jButtonpasoN.setText("Paso 7");
         }
 
         if(contador==8){
-            B.setBackground(Color.WHITE);
+            B.setBackground(Color.RED);
            
          
           
@@ -333,20 +338,21 @@ public class Plantilla extends javax.swing.JFrame {
             jLabeltama8.setText("");
             jLabelesta8.setText("");
             jLabelproceso3.setText("");
+            jButtonpasoN.setText("Paso 8");
         }
 
         if(contador==9){
-            C.setBackground(Color.WHITE);
+            C.setBackground(Color.RED);
            
          
           
             jLabelc.setText("");
 
-            D.setBackground(Color.WHITE);
+           
            
          
           
-            jLabeld.setText("");
+            
 
 
             jLabelno1.setText("1");
@@ -385,9 +391,20 @@ public class Plantilla extends javax.swing.JFrame {
             jLabelesta7.setText("");
             jLabelproceso2.setText("");
 
+            jButtonpasoN.setText("Paso 9");
 
 
+        }if(contador==10){
+            A.setBackground(Color.WHITE);
+            B.setBackground(Color.WHITE);
+            C.setBackground(Color.WHITE);
 
+            D.setBackground(Color.WHITE);
+            jPanelvacio.setBackground(Color.WHITE);
+            jLabeld.setText("");
+
+
+            jButtonpasoN.setText("Paso 10");
         }
        
 
@@ -538,9 +555,7 @@ public class Plantilla extends javax.swing.JFrame {
             .addGroup(jPanelTabladePLayout.createSequentialGroup()
                 .addGap(37, 37, 37)
                 .addGroup(jPanelTabladePLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanelTabladePLayout.createSequentialGroup()
-                        .addComponent(jLabel7)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jLabel7)
                     .addGroup(jPanelTabladePLayout.createSequentialGroup()
                         .addGroup(jPanelTabladePLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanelTabladePLayout.createSequentialGroup()
@@ -576,21 +591,14 @@ public class Plantilla extends javax.swing.JFrame {
                             .addComponent(jLabelesta6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jLabelesta7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jLabelesta8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGroup(jPanelTabladePLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanelTabladePLayout.createSequentialGroup()
-                                .addGap(63, 63, 63)
-                                .addGroup(jPanelTabladePLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addGroup(jPanelTabladePLayout.createSequentialGroup()
-                                        .addGap(6, 6, 6)
-                                        .addGroup(jPanelTabladePLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jLabelproceso0, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                            .addComponent(jLabelproceso1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                                    .addComponent(jLabelproceso2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelTabladePLayout.createSequentialGroup()
-                                .addGap(69, 69, 69)
-                                .addComponent(jLabelproceso3, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(0, 47, Short.MAX_VALUE))))
+                        .addGap(63, 63, 63)
+                        .addGroup(jPanelTabladePLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabelproceso2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabelproceso1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabelproceso0, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabelproceso3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                .addGap(47, 47, 47))
         );
         jPanelTabladePLayout.setVerticalGroup(
             jPanelTabladePLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -636,7 +644,7 @@ public class Plantilla extends javax.swing.JFrame {
                         .addComponent(jLabelproceso1, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(jLabelproceso2, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jLabelproceso3, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanelTabladePLayout.createSequentialGroup()
                         .addComponent(jLabelesta5, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -680,7 +688,7 @@ public class Plantilla extends javax.swing.JFrame {
         jPanel1.setToolTipText("");
         jPanel1.setMaximumSize(new java.awt.Dimension(32767, 590));
 
-        A.setBackground(new java.awt.Color(164, 74, 74));
+        A.setBackground(new java.awt.Color(66, 184, 131));
         A.setMaximumSize(new java.awt.Dimension(32767, 590));
         A.setPreferredSize(new java.awt.Dimension(542, 0));
 
@@ -703,7 +711,7 @@ public class Plantilla extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        B.setBackground(new java.awt.Color(248, 89, 89));
+        B.setBackground(new java.awt.Color(192, 108, 132));
         B.setPreferredSize(new java.awt.Dimension(0, 0));
 
         jLabelb.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -747,7 +755,7 @@ public class Plantilla extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanelvacio.setBackground(new java.awt.Color(255, 255, 255));
+        jPanelvacio.setBackground(new java.awt.Color(255, 0, 0));
         jPanelvacio.setPreferredSize(new java.awt.Dimension(0, 0));
 
         javax.swing.GroupLayout jPanelvacioLayout = new javax.swing.GroupLayout(jPanelvacio);
@@ -904,7 +912,7 @@ public class Plantilla extends javax.swing.JFrame {
                                 .addComponent(jLabel4)
                                 .addGap(107, 107, 107)
                                 .addComponent(jLabel5)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 108, Short.MAX_VALUE)
                                 .addComponent(jLabel16)))
                         .addGap(105, 105, 105))))
         );
@@ -990,11 +998,15 @@ public class Plantilla extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(11, 11, 11)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanelTableAL, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 734, Short.MAX_VALUE)
-                    .addComponent(jPanelTabladeP, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanelbotton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(11, 11, 11)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jPanelTableAL, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 734, Short.MAX_VALUE)
+                            .addComponent(jPanelbotton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jPanelTabladeP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(18, 18, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
