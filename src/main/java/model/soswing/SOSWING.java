@@ -5,6 +5,8 @@
 
 package model.soswing;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author Wilberth
@@ -13,6 +15,9 @@ public class SOSWING {
 
     public static void main(String[] args) {
         Plantilla plantilla = new Plantilla();
+        ImageIcon img = new ImageIcon("icono.png");
+        plantilla.setTitle("Proyecto SO");
+        plantilla.setIconImage(img.getImage());
         plantilla.setVisible(true);
      
     }
