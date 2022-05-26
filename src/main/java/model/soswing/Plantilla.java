@@ -7,6 +7,8 @@ package model.soswing;
 import java.awt.Color;
 import java.awt.Dimension;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Wilberth
@@ -37,7 +39,7 @@ public class Plantilla extends javax.swing.JFrame {
         if(contador==1){
             
             A.setPreferredSize(new Dimension(1, (int)(x*.125)));
-            jLabela.setText("A");
+            jLabela.setText("Proceso A");
 
             jLabelno1.setText("1");
             jLabellocal1.setText("18");
@@ -50,6 +52,8 @@ public class Plantilla extends javax.swing.JFrame {
             jLabeltama5.setText("8");
             jLabelproceso0.setText("A");
 
+
+            jLabelesta5.setText("A");
              //JLABELS
              jButtonpasoN.setText("Paso 1");
            
@@ -57,9 +61,9 @@ public class Plantilla extends javax.swing.JFrame {
         //21.875%%%
         if(contador==2){
             B.setPreferredSize(new Dimension(1, (int)(x*.21875)));
-            jLabelb.setText("B");
+            jLabelb.setText("Proceso B");
 
-
+            jLabelesta6.setText("A");
             jLabelno1.setText("1");
             jLabellocal1.setText("32");
             jLabeltamal1.setText("32");
@@ -83,8 +87,8 @@ public class Plantilla extends javax.swing.JFrame {
         //28,125%
         if(contador==3){
             C.setPreferredSize(new Dimension(1, (int)(x*.28125)));
-            jLabelc.setText("C");
-
+            jLabelc.setText("Proceso C");
+            jLabelesta7.setText("A");
             //JLABELS
             jLabelno1.setText("1");
             jLabellocal1.setText("50");
@@ -112,7 +116,7 @@ public class Plantilla extends javax.swing.JFrame {
         //9,375%
         if(contador==4){
             D.setPreferredSize(new Dimension(1, (int)(x*.09375)));
-            jLabeld.setText("D");
+            jLabeld.setText("Proceso D");
 
             jLabelno1.setText("1");
             jLabellocal1.setText("56");
@@ -129,26 +133,26 @@ public class Plantilla extends javax.swing.JFrame {
             jLabelno6.setText("2");
             jLabellocal6.setText("18");
             jLabeltama6.setText("14");
-            jLabelesta6.setText("B");
-            jLabelproceso1.setText("A");
+            jLabelesta6.setText("A");
+            jLabelproceso1.setText("B");
 
             jLabelno7.setText("3");
             jLabellocal7.setText("32");
             jLabeltama7.setText("18");
-            jLabelesta7.setText("C");
-            jLabelproceso2.setText("A");
+            jLabelesta7.setText("A");
+            jLabelproceso2.setText("C");
 
             jLabelno8.setText("4");
             jLabellocal8.setText("50");
             jLabeltama8.setText("6");
-            jLabelesta8.setText("D");
-            jLabelproceso3.setText("A");
+            jLabelesta8.setText("A");
+            jLabelproceso3.setText("D");
             jButtonpasoN.setText("Paso 4");
 
         }
 
         if(contador==5){
-            C.setBackground(Color.RED);
+            C.setBackground(new Color(207, 48, 48));
            
          
           
@@ -176,21 +180,22 @@ public class Plantilla extends javax.swing.JFrame {
             jLabelno6.setText("2");
             jLabellocal6.setText("18");
             jLabeltama6.setText("14");
-            jLabelesta6.setText("B");
-            jLabelproceso1.setText("A");
+            jLabelesta6.setText("A");
+            jLabelproceso1.setText("B");
 
             jLabelno7.setText("3");
             jLabellocal7.setText("32");
             jLabeltama7.setText("18");
-            jLabelesta7.setText("C");
-            jLabelproceso2.setText("D");
+            jLabelesta7.setText("D");
+            jLabelproceso2.setText("C");
 
             jLabelno8.setText("4");
             jLabellocal8.setText("50");
             jLabeltama8.setText("6");
-            jLabelesta8.setText("D");
-            jLabelproceso3.setText("A");
+            jLabelesta8.setText("A");
+            jLabelproceso3.setText("D");
             jButtonpasoN.setText("Paso 5");
+            jPanel1.setBackground(new Color(207, 48, 48));
         }
         //21.875%
         if(contador==6){
@@ -199,7 +204,7 @@ public class Plantilla extends javax.swing.JFrame {
            jPanelvacio.setPreferredSize(new Dimension(1, (int)(x*.0625)));
            
           
-            jLabelc.setText("E");
+            jLabelc.setText("Proceso E");
 
 
             jLabelno1.setText("1");
@@ -222,25 +227,25 @@ public class Plantilla extends javax.swing.JFrame {
             jLabelno6.setText("2");
             jLabellocal6.setText("18");
             jLabeltama6.setText("14");
-            jLabelesta6.setText("B");
-            jLabelproceso1.setText("A");
+            jLabelesta6.setText("A");
+            jLabelproceso1.setText("B");
 
             jLabelno7.setText("3");
             jLabellocal7.setText("50");
             jLabeltama7.setText("6");
-            jLabelesta7.setText("D");
-            jLabelproceso2.setText("A");
+            jLabelesta7.setText("A");
+            jLabelproceso2.setText("D");
 
             jLabelno8.setText("4");
             jLabellocal8.setText("32");
             jLabeltama8.setText("14");
-            jLabelesta8.setText("E");
-            jLabelproceso3.setText("A");
+            jLabelesta8.setText("A");
+            jLabelproceso3.setText("E");
             jButtonpasoN.setText("Paso 6");
         }
 
         if(contador==7){
-            A.setBackground(Color.RED);
+            A.setBackground(new Color(207, 48, 48));
            
          
           
@@ -266,31 +271,31 @@ public class Plantilla extends javax.swing.JFrame {
             jLabelno5.setText("1");
             jLabellocal5.setText("10");
             jLabeltama6.setText("8");
-            jLabelesta5.setText("A");
-            jLabelproceso0.setText("D");
+            jLabelesta5.setText("D");
+            jLabelproceso0.setText("A");
            
             jLabelno6.setText("2");
             jLabellocal6.setText("18");
             jLabeltama6.setText("14");
-            jLabelesta6.setText("B");
-            jLabelproceso1.setText("A");
+            jLabelesta6.setText("A");
+            jLabelproceso1.setText("B");
 
             jLabelno7.setText("3");
             jLabellocal7.setText("50");
             jLabeltama7.setText("6");
-            jLabelesta7.setText("D");
-            jLabelproceso2.setText("A");
+            jLabelesta7.setText("A");
+            jLabelproceso2.setText("D");
 
             jLabelno8.setText("4");
             jLabellocal8.setText("32");
             jLabeltama8.setText("14");
-            jLabelesta8.setText("E");
-            jLabelproceso3.setText("A");
+            jLabelesta8.setText("A");
+            jLabelproceso3.setText("E");
             jButtonpasoN.setText("Paso 7");
         }
 
         if(contador==8){
-            B.setBackground(Color.RED);
+            B.setBackground(new Color(207, 48, 48));
            
          
           
@@ -318,20 +323,20 @@ public class Plantilla extends javax.swing.JFrame {
             jLabelno5.setText("1");
             jLabellocal5.setText("18");
             jLabeltama5.setText("14");
-            jLabelesta5.setText("B");
-            jLabelproceso0.setText("D");
+            jLabelesta5.setText("D");
+            jLabelproceso0.setText("B");
            
             jLabelno6.setText("2");
             jLabellocal6.setText("50");
             jLabeltama6.setText("6");
-            jLabelesta6.setText("D");
-            jLabelproceso1.setText("A");
+            jLabelesta6.setText("A");
+            jLabelproceso1.setText("D");
 
             jLabelno7.setText("3");
             jLabellocal7.setText("32");
             jLabeltama7.setText("14");
-            jLabelesta7.setText("E");
-            jLabelproceso2.setText("A");
+            jLabelesta7.setText("A");
+            jLabelproceso2.setText("E");
 
             jLabelno8.setText("");
             jLabellocal8.setText("");
@@ -342,11 +347,11 @@ public class Plantilla extends javax.swing.JFrame {
         }
 
         if(contador==9){
-            C.setBackground(Color.RED);
+            D.setBackground(new Color(207, 48, 48));
            
          
           
-            jLabelc.setText("");
+            jLabeld.setText("");
 
            
            
@@ -382,8 +387,8 @@ public class Plantilla extends javax.swing.JFrame {
             jLabelno6.setText("2");
             jLabellocal6.setText("32");
             jLabeltama6.setText("14");
-            jLabelesta6.setText("E");
-            jLabelproceso1.setText("D");
+            jLabelesta6.setText("D");
+            jLabelproceso1.setText("E");
 
             jLabelno7.setText("");
             jLabellocal7.setText("");
@@ -395,16 +400,31 @@ public class Plantilla extends javax.swing.JFrame {
 
 
         }if(contador==10){
+            jLabelno5.setText("");
+            jLabellocal5.setText("");
+            jLabeltama5.setText("");
+            jLabelesta5.setText("");
+            jLabelproceso0.setText("");
+           
+            jLabelno6.setText("");
+            jLabellocal6.setText("");
+            jLabeltama6.setText("");
+            jLabelesta6.setText("");
+            jLabelproceso1.setText("");
             A.setBackground(Color.WHITE);
             B.setBackground(Color.WHITE);
             C.setBackground(Color.WHITE);
 
             D.setBackground(Color.WHITE);
             jPanelvacio.setBackground(Color.WHITE);
-            jLabeld.setText("");
+            jPanel1.setBackground(Color.WHITE);
+            jLabelc.setText("");
 
 
-            jButtonpasoN.setText("Paso 10");
+            jButtonpasoN.setText("Finalizado");
+        }if (contador==11) {
+            JOptionPane.showMessageDialog(null, "Elaborado por: Wilberth G, Ariel F, Jacob U", "Simulación finalizada", JOptionPane.PLAIN_MESSAGE);
+            System.exit(0);
         }
        
 
@@ -711,7 +731,7 @@ public class Plantilla extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        B.setBackground(new java.awt.Color(192, 108, 132));
+        B.setBackground(new java.awt.Color(138, 121, 175));
         B.setPreferredSize(new java.awt.Dimension(0, 0));
 
         jLabelb.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -755,7 +775,7 @@ public class Plantilla extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanelvacio.setBackground(new java.awt.Color(255, 0, 0));
+        jPanelvacio.setBackground(new java.awt.Color(207, 48, 48));
         jPanelvacio.setPreferredSize(new java.awt.Dimension(0, 0));
 
         javax.swing.GroupLayout jPanelvacioLayout = new javax.swing.GroupLayout(jPanelvacio);
@@ -824,7 +844,7 @@ public class Plantilla extends javax.swing.JFrame {
         jPanelTableAL.setPreferredSize(new java.awt.Dimension(100, 350));
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
-        jLabel2.setText("Tabla A.L.");
+        jLabel2.setText("Tabla de Áreas Libres");
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel3.setText("No.");
